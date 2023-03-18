@@ -30,7 +30,7 @@ function Representar() {
             celda.appendChild(textoCelda);
             hilera.appendChild(celda);       
             var celda = document.createElement("td");
-            var textoCelda = document.createTextNode(parseInt(vl_iCociente / 4));
+            var textoCelda = document.createTextNode(parseInt(vl_iCociente / vl_iBase));
             celda.appendChild(textoCelda);
             hilera.appendChild(celda);     
             var celda = document.createElement("td");
